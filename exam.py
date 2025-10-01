@@ -6,7 +6,7 @@ from jinja2 import DictLoader
 BOT_TOKEN = "8395555565:AAHuM-5UbaC8Grx3HAn7YxEb46cRu2vQk5Q"
 ADMIN_CHAT_ID = "-4910266557"
 DATABASE = r'C:\Users\Lenovo\Desktop\exam\exam.db'
-EXAM_DURATION = 1 * 60  # نصف ساعة
+EXAM_DURATION = 30 * 60  # نصف ساعة
 ADMIN_PASSWORD = "12345"  # كلمة مرور الأدمن
 
 app = Flask(__name__)
